@@ -1,0 +1,221 @@
+:root {
+    --gold-text: rgb(226, 193, 11);
+    --title-color: rgb(44, 39, 10);
+    --default-bg: rgba(0, 0, 0, 0.642);
+    --secondary-bg: rgba(0, 0, 0, 0.248);
+}
+
+/* Header styles */
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--gold-text);
+    position: sticky;
+    top: 0;
+    text-align: right;
+    background-color: var(--default-bg);
+    border: 1px solid var(--gold-text);
+    padding: 25px;
+}
+
+#title  {
+    text-align: left;
+    color: var(--title-color);
+}
+
+#title h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#title h3 {
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+/* Nav links styles */
+nav a {
+    z-index: 100;
+    color: var(--gold-text);
+    text-decoration: none;
+    margin: 10px;   
+    opacity: 100%;
+}
+
+nav a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5% 15%;
+    padding: 0;
+    background-image: url("../images/calmpic.jpeg");
+    background-size: cover;
+}
+
+#main_pic {
+    display: flex;
+    justify-content: center;
+}
+
+#main_pic img {
+    width: 68.5vw;
+}
+
+/* prayer section styling */
+#prayer h2 {
+    color: var(--gold-text);
+    text-align: center;
+}
+
+#prayer p {
+    /* color: rgb(153, 84, 84); */
+    text-align: center;
+    padding: 10px;
+}
+
+#prayer_details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#detail1 dl {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: auto;
+    justify-content:space-evenly;
+}
+
+#detail2 ul {
+    padding: 0 30px;
+}
+
+#detail2 ul li{
+    padding: 10px 0;
+}
+
+dl dt {
+    /* width: 25%; */
+    margin-left: 10px;
+    font-weight: bold;
+    color: var(--default-bg)
+}
+
+dl dd {
+    /* width: 75%; */
+    margin-left: 20px;
+    flex-wrap: wrap;
+    /* color: var(--title-color); */
+    /* font-style: italic; */
+    padding-bottom: 10px;
+}
+
+.details {
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--secondary-bg);
+    border: 1px solid var(--gold-text);
+}
+
+.details h3 {
+    color: white;
+    height : 50px;
+    text-align: center;
+}
+
+#container {
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+}
+
+#pad {
+    height: 10vh;
+}
+
+/* about us styling */
+
+.about h1 {
+    color: var(--gold-text);
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.about p {
+    color: rgb(56, 44, 44);
+    text-align: left;
+    margin-top: 0%;
+    padding: 5px;
+}
+
+/* Contact us styling */
+
+th {
+    color: var(--gold-text);
+    font-weight: bold;
+    text-align: left;
+    background-color: var(--default-bg);
+    padding: 10px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px;
+}
+
+#form label {
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#form input {
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+    height: 30px;
+}
+
+#form #message {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: var(--gold-text);
+    color: var(--default-bg);
+    border: 2px solid var(--gold-text);
+    border-radius: 5px;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--default-bg);
+    color: var(--gold-text);
+    border: 2px solid var(--gold-text);
+}
+
+/* footer styling */
+
+footer {
+    width: 100%;
+    background-color: var(--default-bg);
+    color: var(--gold-text);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.text-black {
+    color: black;
+}
