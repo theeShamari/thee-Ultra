@@ -63,15 +63,19 @@
                 <h2>Request Prayer or Share Your Thoughts</h2>
                 <p>If you're going through a challenging time and would like us to pray for you, please share your prayer request with us. We'll lift you up in prayer and ask God to bring comfort, healing, and guidance to your life.
                 </p>
-                <form id="form" action="submit_contact.php" method="post">
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" required></textarea><br>
-                    <input type="submit" value="Submit">
-                </form>
+                <div id="form">
+                    <form id="contact-form" action="submit_contact.php" method="post">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" required></textarea><br>
+                        <div id="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
             </div>
 
             <div id="our_contact">

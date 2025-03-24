@@ -165,28 +165,31 @@ th {
 }
 
 #form {
+    margin: 0 30px;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    padding: 30px;
+    justify-content: space-around;
 }
 
-#form label {
-    color: black;
-    font-weight: bold;
-    padding: 0;
-    margin-bottom: 0;
-    margin-top: 0;
+#submit {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-#form input {
+#form input, #form label, #form #message, #form #submit {
+    width: 70%;
+}
+
+form input {
     padding: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 0;
     height: 30px;
 }
 
-#form #message {
+form #message {
     height: 100px;
 }
 
