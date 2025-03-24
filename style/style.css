@@ -6,7 +6,7 @@
 }
 
 /* Header styles */
-header {
+#nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--gold-text);
     position: sticky;
@@ -47,6 +47,8 @@ nav a:hover {
     color: white;
     font-weight: bold;
 }
+
+/* body and banner */
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -161,6 +163,7 @@ th {
     background-color: var(--default-bg);
     padding: 10px;
 }
+
 #form {
     display: flex;
     flex-direction: column;
