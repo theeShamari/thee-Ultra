@@ -218,6 +218,11 @@ input[type="submit"]:hover {
     border: 2px solid var(--gold-text);
 }
 
+.fab {
+    color: var(--gold-text);
+    margin: 5px 10px;
+}
+
 /* footer styling */
 
 footer {
